@@ -1,14 +1,3 @@
-/* Font Family*/
-
-.font-cursive{
-    font-family: cursive;
-}
-
-.font-sans{
-    font-family: sans-serif;
-}
-
-
 /*  Opacity  */
 .opacity-1{
     --bs-bg-opacity: 1;
@@ -44,8 +33,30 @@
     transition: 900ms ease-in-out;
 }
 
+/* Margin */
 
-/*  Margin  */
+.m-6{
+    margin: 9%;
+}
+
+.m-7{
+    margin: 10%;
+}
+
+.m-8{
+    margin: 12%;
+}
+
+.m-9{
+    margin: 14%;
+}
+
+.m-10{
+    margin: 16%;
+}
+
+
+/*  Margin Top */
 .mt-6{
     margin-top: 9%;
 }
@@ -152,4 +163,184 @@
 
 .mlt-10{
    margin-left: 20%;
+}
+
+
+
+/* Margin Bottom */
+
+.mb-6{
+    margin-bottom: 9%;
+}
+
+.mb-7{
+    margin-bottom: 10%;
+}
+
+.mb-8{
+    margin-bottom: 12%;
+}
+
+.mb-9{
+    margin-bottom: 14%;
+}
+
+.mb-10{
+    margin-bottom: 16%;
+}
+
+
+/* Font Size */
+
+.text-1{
+    font-size: 2%;
+}
+
+.text-2{
+  font-size: 4%;
+}
+
+.text-3{
+  font-size: 6%;
+}
+
+.text-4{
+  font-size: 8%;
+}
+
+.text-5{
+  font-size: 10%;
+}
+
+.text-6{
+  font-size: 12%;
+}
+
+.text-7{
+  font-size: 14%;
+}
+
+.text-8{
+  font-size: 16%;
+}
+
+.text-9{
+  font-size: 18%;
+}
+
+.text-10{
+  font-size: 20%;
+}
+
+
+
+/* Font Bold */
+
+.font-light{
+  font-weight: 100;
+}
+
+.font-strong{
+  font-weight: 500;
+}
+
+.font-bold{
+  font-weight: 800;
+}
+
+
+
+
+/* Flex */
+
+.flex{
+  display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
+.flex-colomn{
+  flex-direction: column;
+}
+
+.flex-colomn-reverse{
+  flex-direction: column-reverse;
+}
+
+.flex-auto{
+ flex: auto;
+}
+
+.flex-10{
+  flex: 10%;
+}
+
+.flex-20{
+  flex: 20%;
+}
+
+.flex-30{
+  flex: 30%;
+}
+
+.flex-40{
+  flex: 40%;
+}
+
+.flex-50{
+  flex: 50%;
+}
+
+.flex-60{
+  flex: 60%;
+}
+
+.flex-70{
+  flex: 70%;
+}
+
+.flex-80{
+  flex: 80%;
+}
+
+.flex-90{
+  flex: 90%;
+}
+
+.flex-100{
+  flex: 100%;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-inherit{
+  flex-wrap: inherit;
+}
+
+.flex-wrap-init{
+  flex-wrap: initial;
+}
+
+.flex-wrap-unset{
+  flex-wrap: unset;
+}
+
+.flex-shrink{
+  flex-shrink: inherit;
 }
